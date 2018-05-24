@@ -1,0 +1,78 @@
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin: 0;
+  color: #636e72;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  margin: auto;
+}
+
+.menuHeader h1 {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 46px;
+  font-weight: 100;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    margin: 5px 10px;
+    font-size: 1.2em;
+    background-color: #ff9f43;
+    color: white;
+}
+
+/* .container .starters {
+  justify-content: flex-end;
+} */
+
+.menuDishes {
+  display: flex;
+  flex-direction: column;
+  margin-left: 35px;
+}
+
+h3 {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 24px;
+  font-weight: 100;
+  border-bottom: 2px solid #636e72;
+  padding-bottom: 15px;
+}
+
+.starter {
+  display: flex;
+  flex-direction: column;
+}
+
+.individualPlates {
+  display: flex;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  margin: 0 15px 15px 0;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-right: 50px;
+}
+
+.price {
+  text-align: right;
+  margin-left: 50px;
+}
