@@ -23,11 +23,11 @@ body {
 }
 
 .btn {
-    height: 50px;
-    width: 150px;
+    height: 40px;
+    width: 125px;
     border-radius: 10px;
     margin: 5px 10px;
-    font-size: 1.2em;
+    font-size: 1.1em;
     background-color: #ff9f43;
     color: white;
 }
@@ -40,6 +40,7 @@ body {
   display: flex;
   flex-direction: column;
   margin-left: 35px;
+  margin-top: 30px;
 }
 
 h3 {
@@ -50,7 +51,9 @@ h3 {
   padding-bottom: 15px;
 }
 
-.starter {
+.starter,
+.entrees,
+.desserts {
   display: flex;
   flex-direction: column;
 }
